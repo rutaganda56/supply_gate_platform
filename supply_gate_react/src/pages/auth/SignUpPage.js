@@ -1,10 +1,9 @@
 import React, { useState } from "react";
 import { User, Phone, Mail, Lock, Eye, EyeOff, ArrowRight, Loader2 } from "lucide-react";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { authApi } from "../../lib/api";
 import { LocationSelector } from "../../components/LocationSelector";
 import { showSuccess } from "../../lib/toast";
-
 export default function SignUpPage() {
   const [showPassword, setShowPassword] = useState(false);
   const [showConfirmPassword, setShowConfirmPassword] = useState(false);
@@ -116,8 +115,7 @@ export default function SignUpPage() {
       <div className="flex-1 flex items-center justify-center bg-white p-8">
         <div className="w-full max-w-md">
           {/* Title */}
-          <h1 className="text-3xl font-medium text-center mb-10 text-gray-800">Register</h1>
-
+          <h1 className="text-3xl font-medium text-center mb-10 text-gray-800">Supplier Registration</h1>
           {/* Error Message */}
           {error && (
             <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg text-red-700 text-sm">
@@ -311,6 +309,20 @@ export default function SignUpPage() {
               )}
             </button>
           </form>
+          {/* Login link */}
+                    <div className="mt-6 space-y-3">
+                      <p className="text-center text-sm text-gray-600">
+                        Already have an account?{" "}
+                        <Link to="/login?type=supplier" className="text-[#1a3a3a] hover:underline font-medium">
+                          Login here
+                        </Link>
+                      </p>
+                      <div className="text-center">
+                        <Link to="/industryDashBoard/register" className="text-sm text-gray-500 hover:text-gray-700">
+                          Register as an industry worker instead
+                        </Link>
+                      </div>
+                    </div>
         </div>
       </div>
     </div>

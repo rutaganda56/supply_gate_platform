@@ -180,7 +180,7 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex">
       {/* Left teal sidebar */}
-      <div className={`w-60 hidden md:block ${userType === "industry" ? "bg-[#1a3a3a]" : "bg-[#1e4d5c]"}`} />
+      <div className={`w-60 hidden md:block ${userType === "industry" ? "bg-[#1e4d5c]" : "bg-[#1e4d5c]"}`} />
 
       {/* Right content area */}
       <div className="flex-1 flex items-center justify-center bg-white p-8">
@@ -212,7 +212,6 @@ export default function LoginPage() {
                   : "text-gray-600 hover:text-gray-800"
               }`}
             >
-              <Building2 className="w-4 h-4" />
               Industry Worker
             </button>
           </div>
@@ -310,7 +309,7 @@ export default function LoginPage() {
               disabled={loading}
               className={`w-full text-white py-3 rounded-md flex items-center justify-center gap-2 transition-colors disabled:opacity-50 disabled:cursor-not-allowed ${
                 userType === "industry"
-                  ? "bg-[#1a3a3a] hover:bg-[#2a4a4a]"
+                  ? "bg-[#1e4d5c] hover:bg-[#2a4a4a]"
                   : "bg-[#1e4d5c] hover:bg-[#163d49]"
               }`}
             >

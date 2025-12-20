@@ -173,14 +173,7 @@ export default function IndustryRegisterPage() {
   return (
     <div className="min-h-screen flex">
       {/* Left teal sidebar */}
-      <div className="w-60 bg-[#1a3a3a] hidden md:flex items-center justify-center">
-        <div className="text-white text-center px-6">
-          <Building2 className="w-16 h-16 mx-auto mb-4" />
-          <h2 className="text-2xl font-semibold mb-2">Industry Portal</h2>
-          <p className="text-sm text-white/80">
-            Register as an industry worker to manage supplier verifications
-          </p>
-        </div>
+      <div className="w-60 bg-[#1e4d5c] hidden md:flex items-center justify-center">
       </div>
 
       {/* Right content area */}
@@ -192,7 +185,6 @@ export default function IndustryRegisterPage() {
               Industry Worker Registration
             </h1>
             <p className="text-sm text-gray-600">
-              Create an account to access the industry dashboard
             </p>
           </div>
 
@@ -343,7 +335,7 @@ export default function IndustryRegisterPage() {
             <Button
               type="submit"
               disabled={loading}
-              className="w-full bg-[#1a3a3a] text-white py-3 rounded-md flex items-center justify-center gap-2 hover:bg-[#2a4a4a] transition-colors mt-8 disabled:opacity-50 disabled:cursor-not-allowed"
+              className="w-full bg-[#1e4d5c] text-white py-3 rounded-md flex items-center justify-center gap-2 hover:bg-[#2a4a4a] transition-colors mt-8 disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {loading ? (
                 <>

@@ -55,7 +55,7 @@ export default function LandingPage() {
 
       {/* Hero Section */}
       <section className="px-6 py-12 md:py-20">
-        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+        <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8 ">
           <div className="flex-1">
             <h1 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-4">
               Take Supply From
@@ -68,13 +68,6 @@ export default function LandingPage() {
               suppliers.
             </p>
           </div>
-          <div className="flex-1">
-            <img
-              src="/modern-office-workspace-with-computer-monitor-show.jpg"
-              alt="Office workspace"
-              className="rounded-lg shadow-lg w-full max-w-md"
-            />
-          </div>
         </div>
       </section>
 
@@ -82,23 +75,6 @@ export default function LandingPage() {
       <section className="px-6 py-12 border-t border-gray-100">
         <div className="max-w-4xl mx-auto text-center">
           <p className="text-gray-600 text-sm mb-8">Trusted by over 5k users</p>
-          <div className="flex items-center justify-center gap-12 flex-wrap">
-            <img
-              src="/trans-ltd-company-logo-blue.jpg"
-              alt="Trans Ltd"
-              className="h-12 opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <img
-              src="/nyando-company-logo-with-sailboat-green.jpg"
-              alt="Nyando"
-              className="h-12 opacity-80 hover:opacity-100 transition-opacity"
-            />
-            <img
-              src="/kabisa-electric-company-logo-orange.jpg"
-              alt="Kabisa Electric"
-              className="h-12 w-auto opacity-80 hover:opacity-100 transition-opacity"
-            />
-          </div>
         </div>
       </section>
 
@@ -160,11 +136,6 @@ export default function LandingPage() {
             </p>
             <div className="flex items-center gap-3">
               <div className="w-10 h-10 rounded-full bg-gray-200 overflow-hidden">
-                <img
-                  src="/professional-woman-avatar.png"
-                  alt="Alice Mutoni"
-                  className="w-full h-full object-cover"
-                />
               </div>
               <div>
                 <p className="font-semibold text-gray-900 text-sm">Alice Mutoni</p>

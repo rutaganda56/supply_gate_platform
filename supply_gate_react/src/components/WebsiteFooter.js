@@ -126,12 +126,12 @@ export function WebsiteFooter() {
               Privacy Policy
             </Link>
             <span className="text-gray-400">|</span>
-            <span className="text-gray-300">Email: support@supplygate.com</span>
-            <span className="text-gray-300">Phone: +250 788 123 456</span>
+            <span className="text-gray-300">Email: info@supplygate.com</span>
+            <span className="text-gray-300">Phone: +250 786 862 012</span>
           </div>
           <div className="flex items-center gap-4">
             <a 
-              href="https://linkedin.com/company/supplygate" 
+              href="https://linkedin.com/" 
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
@@ -140,7 +140,7 @@ export function WebsiteFooter() {
               <Linkedin size={20} />
             </a>
             <a 
-              href="https://instagram.com/supplygate" 
+              href="https://instagram.com/" 
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
@@ -149,7 +149,7 @@ export function WebsiteFooter() {
               <Instagram size={20} />
             </a>
             <a 
-              href="https://twitter.com/supplygate" 
+              href="https://twitter.com/" 
               target="_blank"
               rel="noopener noreferrer"
               className="hover:opacity-80 transition-opacity"
